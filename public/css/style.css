@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+ }
+
+body {
+    margin: left 6px;
+    padding: 12px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f0f0f0;
+	background-image:
+	 radial-gradient(#e4e4e4 1px, transparent 1px);
+	background-size: 20px 20px;
+}
+header {
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+}
+h1 {
+    margin: 0; padding: 0;
+    font-size: 20px;
+    border-bottom: solid 3px #00ffff;
+    position: relative;
+ }
+h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #fe35ea;
+    bottom: -3px;
+    width: 20%;
+  }
+a {
+    text-decoration: none;
+    color: #4b4b4b;
+ }
+h2 {
+    font-size: 18px;
+}
+.kakoi {
+    font-size: 12px;
+    border: 1px solid;
+    border-radius:5px;
+    padding:10px;
+}
+p {
+    margin: 24px 0px 0px 0px;
+}
+table {
+    border-collapse: collapse;
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+    width: 650px;
+        box-shadow: 0 0 15px -6px #00000073;
+}
+table tr {
+    background-color: #fff;
+  }
+table tbody tr:hover{
+    background-color: #fffae9;
+}
+table td {
+    padding: .35em 1em;
+    border-bottom: 1px solid #eee;
+}
+table thead th {
+      font-size: .85em;
+      padding: 1em;
+}
+table thead tr{
+    background-color: #77a1fb;
+    color:#fff;
+}
+table tbody th {
+    text-align: left;
+    font-size: .8em;
+}
+@media screen and (max-width: 600px) {
+    table{width: 100%;}
+}
+.tweet {
+    margin: 18px 0px 0px 0px;
+}
+.forerror {
+    margin: 12px 0px 0px 0px;
+}
+.topbutton {
+    margin: 12px 0px 0px 0px;
+}
+.generate {
+    margin: 6px 0px 0px 0px;
+}
